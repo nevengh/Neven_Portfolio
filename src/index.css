@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+      /*
+        ========================
+            Fonts
+        =========================
+      */
+  --font_family_primary:"Press Start 2P", system-ui;
+  --font_family_secondary:"Montserrat", sans-serif;
+   /*
+        ========================
+            Colors
+        =========================
+      */
+
+    --primary_color:#303136;
+    --secondary_color:#DA605c;
+}
+
+body{
+  background:#000 url(./assets/demo-bg.jpg);
+  position: relative;
+  /* overflow: hidden; */
+  font-family: var(--font_family_secondary);
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
