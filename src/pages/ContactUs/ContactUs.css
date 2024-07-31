@@ -122,3 +122,12 @@ textarea{
 .submit:hover{
     background-color: #c34844;
 }
+
+@media(max-width:600px){
+  .input_group input{
+    width:100% !important;
+  }
+  .input_group {
+    gap:20px;
+  }
+}

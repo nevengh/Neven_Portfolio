@@ -4,7 +4,7 @@ import villa from "../../assets/villa agnecy.jpg";
 import Resend from '../../assets/resend.jpg'
 import calculator from '../../assets/screenshot.png'
 import alhosn from '../../assets/alhosn.jpg'
-import { FaGithub, FaLink } from "react-icons/fa";
+import {  FaLink } from "react-icons/fa";
 
 
 function Portfolio() {

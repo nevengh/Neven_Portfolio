@@ -57,11 +57,13 @@
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+    
 }
 .about-me .container .about_content .about_content_text .ul_container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap:wrap;
     margin-bottom: 20px;
 }
 .about-me .container .about_content .about_content_text .ul_container ul li{
@@ -231,3 +233,18 @@
     transform: translateX(-50%) rotate(45deg);
   }
   
+
+  @media (max-width:566px){
+    .about-me .container .count_container{
+      gap: 30px;
+    }
+    .skill-box .skill-bar{
+      width:370px !important;
+    }
+    .about-me .container .about_content .about_content_text .lorem{
+      width:380px;
+    }
+    .about-me .container .about_content .about_content_text .ul_container{
+      gap:20px;
+    }
+  }

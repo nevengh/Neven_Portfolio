@@ -80,3 +80,9 @@
     /* margin-left: 15px; */
     border-left: 1px solid #fff;
 }
+
+@media (max-width:420px){
+    .resum_text,.resum_subtitle_edu{
+        max-width:370px;
+    }
+}

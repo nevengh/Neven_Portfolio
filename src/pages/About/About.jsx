@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FaArrowAltCircleRight, FaClock } from "react-icons/fa";
 import Navbar from "../../components/Navbar/Navbar";
 import "./About.css";
@@ -54,10 +55,9 @@ function About() {
         <div className="about_content">
           <img src={neven} alt="" />
           <div className="about_content_text">
-            <h1>UI/UX & Graphic Designer</h1>
+            <h1>Front End Developer</h1>
             <p className="lorem">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              I'm a software engineer with a Bachelor's degree in Computer engineering and automatic control from Tishreen University.
             </p>
             <div className="ul_container">
               <ul>
@@ -96,13 +96,8 @@ function About() {
               </ul>
             </div>
             <p className="lorem">
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio
-              vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor
-              incidunt officia tempore. Et eius omnis. Cupiditate ut dicta
-              maxime officiis quidem quia. Sed et consectetur qui quia
-              repellendus itaque neque. Aliquid amet quidem ut quaerat
-              cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium
-              dolores.
+              Specializing in software .with  over two years of experience in the field, I bring a wealth of knowledge and expertise in front-end development.
+              My skills include Html , Css , JavaSCript , Bootstrap , React , Redux , Redux Toolkit , github , git , trello and Typescript.
             </p>
           </div>
         </div>
