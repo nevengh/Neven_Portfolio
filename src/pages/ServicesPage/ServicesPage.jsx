@@ -1,7 +1,7 @@
-import { FaAppStore, FaFastForward, FaLaptop, FaLayerGroup, FaReact, FaTruckLoading, FaUser } from "react-icons/fa";
+import {  FaFastForward, FaLaptop, FaLayerGroup, FaReact, FaUser } from "react-icons/fa";
 import Navbar from "../../components/Navbar/Navbar";
 import "./ServicesPage.css";
-import { FaDiceOne } from "react-icons/fa6";
+
 
 function ServicesPage() {
   return (
