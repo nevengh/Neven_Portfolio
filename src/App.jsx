@@ -7,6 +7,7 @@ import Portfolio from "./pages/Portfolio/Portfolio";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import ServicesPage from "./pages/ServicesPage/ServicesPage";
 import Navbar from "./components/Navbar/Navbar";
+import CookieConsentBanner from "./components/CookieConsentBanner/CookieConsentBanner";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/contact" element={<ContactUs />} />
         </Routes>
       </div>
+      <CookieConsentBanner/>
     </BrowserRouter>
   );
 }

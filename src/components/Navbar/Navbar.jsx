@@ -20,22 +20,46 @@ const Navbar = () => {
         <h1>Neven Ghasoun</h1>
       </div>
       <div className={`home_nav ${menuVisible ? 'active' : ''}`}>
-        <NavLink to='/' exact activeClassName="active" onClick={handleLinkClick}>
+        <NavLink 
+          to='/' 
+          className={({ isActive }) => (isActive ? 'active' : '')} 
+          onClick={handleLinkClick}
+        >
           Home
         </NavLink>
-        <NavLink to='/about' activeClassName="active" onClick={handleLinkClick}>
+        <NavLink 
+          to='/about' 
+          className={({ isActive }) => (isActive ? 'active' : '')} 
+          onClick={handleLinkClick}
+        >
           About
         </NavLink>
-        <NavLink to='/resume' activeClassName="active" onClick={handleLinkClick}>
+        <NavLink 
+          to='/resume' 
+          className={({ isActive }) => (isActive ? 'active' : '')} 
+          onClick={handleLinkClick}
+        >
           Resume
         </NavLink>
-        <NavLink to='/services' activeClassName="active" onClick={handleLinkClick}>
+        <NavLink 
+          to='/services' 
+          className={({ isActive }) => (isActive ? 'active' : '')} 
+          onClick={handleLinkClick}
+        >
           Services
         </NavLink>
-        <NavLink to='/portfolio' activeClassName="active" onClick={handleLinkClick}>
+        <NavLink 
+          to='/portfolio' 
+          className={({ isActive }) => (isActive ? 'active' : '')} 
+          onClick={handleLinkClick}
+        >
           Portfolio
         </NavLink>
-        <NavLink to='/contact' activeClassName="active" onClick={handleLinkClick}>
+        <NavLink 
+          to='/contact' 
+          className={({ isActive }) => (isActive ? 'active' : '')} 
+          onClick={handleLinkClick}
+        >
           Contact
         </NavLink>
       </div>
