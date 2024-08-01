@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { FaArrowAltCircleRight, FaClock } from "react-icons/fa";
-import Navbar from "../../components/Navbar/Navbar";
+
 import "./About.css";
 import { FaBook, FaRegFaceSmile } from "react-icons/fa6";
 import neven from '../../assets/1721650340124.jpg'
@@ -46,7 +46,7 @@ function About() {
   }, []);
   return (
     <div className="about-me">
-      <Navbar />
+     
       <div className="container">
         <div className="about_header">
           <h2>About</h2>

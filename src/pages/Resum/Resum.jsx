@@ -1,11 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
-import Navbar from "../../components/Navbar/Navbar";
+
 import "./Resum.css";
 
 function Resum() {
   return (
     <div className="resum">
-      <Navbar />
+     
       <div className="container">
         <div className="about_header">
           <h2>Resume</h2>

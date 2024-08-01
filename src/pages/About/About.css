@@ -239,10 +239,10 @@
       gap: 30px;
     }
     .skill-box .skill-bar{
-      width:360px !important;
+      width:340px !important;
     }
     .about-me .container .about_content .about_content_text .lorem{
-      width:380px;
+      max-width:380px;
     }
     .about-me .container .about_content .about_content_text .ul_container{
       gap:20px;

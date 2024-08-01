@@ -1,4 +1,4 @@
-import Navbar from "../../components/Navbar/Navbar";
+
 import "./Portfolio.css";
 import villa from "../../assets/villa agnecy.jpg";
 import Resend from '../../assets/resend.jpg'
@@ -10,7 +10,7 @@ import {  FaLink } from "react-icons/fa";
 function Portfolio() {
   return (
     <div className="Portfolio">
-      <Navbar />
+     
       <div className="container">
         <div className="about_header">
           <h2>Portfolio</h2>

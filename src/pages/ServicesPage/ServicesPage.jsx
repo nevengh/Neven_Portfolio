@@ -1,12 +1,12 @@
 import {  FaFastForward, FaLaptop, FaLayerGroup, FaReact, FaUser } from "react-icons/fa";
-import Navbar from "../../components/Navbar/Navbar";
+
 import "./ServicesPage.css";
 
 
 function ServicesPage() {
   return (
     <div className="ServicesPage">
-      <Navbar />
+      
       <div className="container">
         <div className="about_header">
           <h2>Services</h2>
